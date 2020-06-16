@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MobilityScm.Modelo.Entidades.Cliente" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAkMAAAQgCAEAAQCCAIQsBAAAAeACAAAgEAEQkAI=</HashCode>
+      <FileName>Entidades\Cliente.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MobilityScm.Modelo.Entidades.OrderDetail" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAACAABAAAAgAACACQAAAAgAAAAACAAAAAAgAAAAAA=</HashCode>
+      <FileName>Entidades\OrderDetail.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MobilityScm.Modelo.Entidades.OrderHeader" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACMEBACACIgAAwCzBAQAAAAuAgAAAAEyCAAAAEQAKMQ=</HashCode>
+      <FileName>Entidades\OrderHeader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MobilityScm.Modelo.Entidades.OrderSerieDetail" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAABAAAAAAACACAAAAAgAAAAACAAEAAAAAAAAAA=</HashCode>
+      <FileName>Entidades\OrderSerieDetail.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MobilityScm.Modelo.Entidades.PurchaseOrderDetail" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAICAABACAAQAACIDQAIAAgAAAAACAAAAAAgACAAAA=</HashCode>
+      <FileName>Entidades\PurchaseOrderDetail.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MobilityScm.Modelo.Entidades.PurchaseOrderHeader" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIEBACACIAEBwCiBAQAAEQkAgAAAAEAAAAAAAQBqEQ=</HashCode>
+      <FileName>Entidades\PurchaseOrderHeader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MobilityScm.Modelo.Entidades.PurchaseSerieDetail" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAACACAAAAAgAAAAACAAEAAAAAAAAAA=</HashCode>
+      <FileName>Entidades\PurchaseSerieDetail.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MobilityScm.Modelo.Entidades.ReturnDetail" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAICAABQCAAAAACIjQAAAAgAAAAACAAAAAAgACAAAA=</HashCode>
+      <FileName>Entidades\ReturnDetail.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MobilityScm.Modelo.Entidades.ReturnHeader" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SAIEBACECIEEBwCiBAQAAEAkAgAAAAEAAAAAAAQBKEQ=</HashCode>
+      <FileName>Entidades\ReturnHeader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MobilityScm.Modelo.Entidades.ReturnSerieDetail" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAACACAAAAAgAAAAACAAEAAAAAAAAAA=</HashCode>
+      <FileName>Entidades\ReturnSerieDetail.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MobilityScm.Modelo.Entidades.SondaFacturaDetalle" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEEAAAAAAAAAAACAgAEAAAgAQAQAAAIACAAEAClgAQ=</HashCode>
+      <FileName>Entidades\SondaFacturaDetalle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MobilityScm.Modelo.Entidades.SondaFacturaEncabezado" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IASCCmAhAIAAQAECBEEEACYhBQACAEQBECAAsIGCAA4=</HashCode>
+      <FileName>Entidades\SondaFacturaEncabezado.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MobilityScm.Modelo.Entidades.SondaOrdenDeVentaDetalle" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEGAAAAAAAAAAACAgAEAAAgAQAQAAAIAAAAEAAhgAQ=</HashCode>
+      <FileName>Entidades\SondaOrdenDeVentaDetalle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MobilityScm.Modelo.Entidades.SondaOrdenDeVentaEncabezado" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IACCQkAgAAAAAAECAgAEgCYgBSAAAEABAAAAsAGAAA4=</HashCode>
+      <FileName>Entidades\SondaOrdenDeVentaEncabezado.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MobilityScm.Modelo.Entidades.SwiftExpressPickingDetalle" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAQAAABAAAAAAAAAAAAAAAAAAAAACAAAAAAgAAAAAA=</HashCode>
+      <FileName>Entidades\SwiftExpressPickingDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MobilityScm.Modelo.Entidades.SwiftPickingEncabezado">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEBEAAAMAGAgCiAAQCAEQEgACAAQEAAAABAAQAKEQ=</HashCode>
+      <FileName>Entidades\SwiftPickingEncabezado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MobilityScm.Modelo.Entidades.SwiftTxn" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IsAYIAKBiJgQEAAQFBGAYAIgAQRAAGAAkAgKABAAAKs=</HashCode>
+      <FileName>Entidades\SwiftTxn.generated.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MobilityScm.Modelo.Entidades.EntitiesModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAACFAQAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>EntitiesModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MobilityScm.Modelo.BaseDeDatosServicio" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RISIAEABAAEAQgAKAAAAAUAAHYEAAQABAAAAhAAAAQQ=</HashCode>
+      <FileName>IBaseDeDatosServicio.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="MobilityScm.Modelo.Entidades.ICliente" Collapsed="true">
+    <Position X="2.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAgMAAAQgCAEAAQCCAIQMBAAAAeACAAAgEAEQkAI=</HashCode>
+      <FileName>Entidades\ICliente.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MobilityScm.Modelo.Entidades.IOrderDetail" Collapsed="true">
+    <Position X="5.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAABAAAAgAACACQAAAAAAAAAACAAAAAAgAAAAAA=</HashCode>
+      <FileName>Entidades\IOrderDetail.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MobilityScm.Modelo.Entidades.IOrderHeader" Collapsed="true">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACMEBACACIgAAwCzBAQAAAAGAgAAAAEyCAAAAEQAKMQ=</HashCode>
+      <FileName>Entidades\IOrderHeader.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MobilityScm.Modelo.Entidades.IOrderSerieDetail" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAABAAAAAAACACAAAAAAAAAAACAAEAAAAAAAAAA=</HashCode>
+      <FileName>Entidades\IOrderSerieDetail.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MobilityScm.Modelo.Entidades.IPurchaseOrderDetail" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAABACAAAAACIDQAIAAAAAAAACAAAAAAgACAAAA=</HashCode>
+      <FileName>Entidades\IPurchaseOrderDetail.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MobilityScm.Modelo.Entidades.IPurchaseOrderHeader" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIEBACACIAEBwCiBAQAAEAEAgAAAAEAAAAAAAQBqEQ=</HashCode>
+      <FileName>Entidades\IPurchaseOrderHeader.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MobilityScm.Modelo.Entidades.IPurchaseSerieDetail" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAACACAAAAAAAAAAACAAEAAAAAAAAAA=</HashCode>
+      <FileName>Entidades\IPurchaseSerieDetail.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MobilityScm.Modelo.Entidades.IReturnDetail" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAABACAAAAACIjQAAAAAAAAAACAAAAAAgACAAAA=</HashCode>
+      <FileName>Entidades\IReturnDetail.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MobilityScm.Modelo.Entidades.IReturnHeader" Collapsed="true">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAIEBACECIEEBwCiBAQAAEAEAgAAAAEAAAAAAAQBKEQ=</HashCode>
+      <FileName>Entidades\IReturnHeader.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MobilityScm.Modelo.Entidades.IReturnSerieDetail" Collapsed="true">
+    <Position X="2.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAACACAAAAAAAAAAACAAEAAAAAAAAAA=</HashCode>
+      <FileName>Entidades\IReturnSerieDetail.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MobilityScm.Modelo.Entidades.ISondaFacturaDetalle" Collapsed="true">
+    <Position X="4" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEEAAAAAAAAAAACAgAEAAAAAQAQAAAIACAAEAClgAQ=</HashCode>
+      <FileName>Entidades\ISondaFacturaDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MobilityScm.Modelo.Entidades.ISondaFacturaEncabezado" Collapsed="true">
+    <Position X="5.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IASCCiAhAIAAQAECBEEEACYBBQACAEQBECAAsIGAAA4=</HashCode>
+      <FileName>Entidades\ISondaFacturaEncabezado.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MobilityScm.Modelo.Entidades.ISondaOrdenDeVentaDetalle" Collapsed="true">
+    <Position X="7.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEGAAAAAAAAAAACAgAEAAAAAQAQAAAIAAAAEAAhgAQ=</HashCode>
+      <FileName>Entidades\ISondaOrdenDeVentaDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MobilityScm.Modelo.Entidades.ISondaOrdenDeVentaEncabezado" Collapsed="true">
+    <Position X="0.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IACCQgAgAAAAAAECAgAEgCYABQAAAEAAAAAAsAGAAA4=</HashCode>
+      <FileName>Entidades\ISondaOrdenDeVentaEncabezado.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MobilityScm.Modelo.Entidades.IEntitiesModelUnitOfWork" Collapsed="true">
+    <Position X="10" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EntitiesModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MobilityScm.Modelo.IBaseDeDatosServicio" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QISIAEABACAAAgAKAAAAAEAAGYEAAQABAAAAhAAAAAA=</HashCode>
+      <FileName>IBaseDeDatosServicio.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

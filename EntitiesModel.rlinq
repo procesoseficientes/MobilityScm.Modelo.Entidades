@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DomainModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="2.0.0.0" name="EntitiesModel" namespace="MobilityScm.Modelo.Entidades" showPropertiesCompartment="true" xmlns="http://www.telerik.com/ORM">
+  <orm:orm name="EntitiesModel" backend="mssql" default-schema="ferco" xmlns:orm="http://tempuri.org/ORM">
+    <orm:namespace name="MobilityScm.Modelo.Entidades" default="true">
+      <orm:class name="SwiftTxn" uniqueId="898df13c-db81-4241-804c-7f1cc3472085">
+        <orm:table name="SWIFT_TXNS" />
+        <orm:identity>
+          <orm:key-generator name="autoinc">
+            <orm:key-generator-member property-name="TxnId" />
+          </orm:key-generator>
+          <orm:single-field field-name="_txnid" />
+        </orm:identity>
+        <orm:concurrency strategy="changed" />
+        <orm:field name="_txnid" property="TxnId" behavior="readwrite" uniqueId="6c42a4b8-03cb-46f4-8af4-b32648ecde68" type="System.Int32">
+          <orm:column name="TXN_ID" sql-type="int" nullable="false" length="0" scale="0" primary-key="true" backend-calculated="true" ado-type="Int32" />
+        </orm:field>
+        <orm:field name="_manifestsource" property="ManifestSource" behavior="readwrite" uniqueId="eead3e5d-c0f2-4432-8ff3-285b32fd9576" type="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+          <orm:column name="MANIFEST_SOURCE" sql-type="int" nullable="true" length="0" scale="0" ado-type="Int32" />
+        </orm:field>
+        <orm:field name="_sapreference" property="SapReference" behavior="readwrite" uniqueId="92fe4455-a647-4754-81a8-3d16841fb4fe" type="System.String">
+          <orm:column name="SAP_REFERENCE" sql-type="varchar" nullable="true" length="50" scale="0" ado-type="StringVariableLength" />
+        </orm:field>
+        <orm:field name="_tasksourceid" property="TaskSourceId" behavior="readwrite" uniqueId="f387cb76-0e27-41cd-b2a6-80e959974ec3" type="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+          <orm:column name="TASK_SOURCE_ID" sql-type="int" nullable="true" length="0" scale="0" ado-type="Int32" />
+        </orm:field>
+        <orm:field name="_txntype" property="TxnType" behavior="readwrite" uniqueId="87608218-b603-41ed-a799-5d969531ca40" type="System.String">
+          <orm:column name="TXN_TYPE" sql-type="varchar" nullable="true" length="25" scale="0" ado-type="StringVariableLength" />
+        </orm:field>
+        <orm:field name="_txndescription" property="TxnDescription" behavior="readwrite" uniqueId="795bb2c3-e074-4bc6-be0c-5fa69aeddd1c" type="System.String">
+          <orm:column name="TXN_DESCRIPTION" sql-type="varchar" nullable="true" length="50" scale="0" ado-type="StringVariableLength" />
+        </orm:field>
+        <orm:field name="_txncategory" property="TxnCategory" behavior="readwrite" uniqueId="6128344e-baac-4404-8f06-70b72bef21b9" type="System.String">
+          <orm:column name="TXN_CATEGORY" sql-type="varchar" nullable="true" length="25" scale="0" ado-type="StringVariableLength" />
+        </orm:field>
+        <orm:field name="_txncreatedstamp" property="TxnCreatedStamp" behavior="readwrite" uniqueId="6fea0436-c469-48e3-8bf8-58f6cbef2f92" type="System.Nullable`1[[System.DateTime, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+          <orm:column name="TXN_CREATED_STAMP" sql-type="datetime" nullable="true" length="0" scale="0" ado-type="DateTime" />
+        </orm:field>
+        <orm:field name="_txnoperatorid" property="TxnOperatorId" behavior="readwrite" uniqueId="8edc3dfd-7cce-468c-aea8-75617f45e52a" type="System.String">
+          <orm:column name="TXN_OPERATOR_ID" sql-type="varchar" nullable="true" length="25" scale="0" ado-type="StringVariableLength" />
+        </orm:field>
+        <orm:field name="_txnoperatorname" property="TxnOperatorName" behavior="readwrite" uniqueId="2103d65f-fbaa-42af-8c7f-48bf3849ce49" type="System.String">
+          <orm:column name="TXN_OPERATOR_NAME" sql-type="varchar" nullable="true" length="250" scale="0" ado-type="StringVariableLength" />
+        </orm:field>
+        <orm:field name="_txncodesku" property="TxnCodeSku" behavior="readwrite" uniqueId="47d6a793-7d5c-4070-b086-5cdf95f8b687" type="System.String">
+          <orm:column name="TXN_CODE_SKU" sql-type="varchar" nullable="true" length="50" scale="0" ado-type="StringVariableLength" />
+        </orm:field>
+        <orm:field name="_txndescriptionsku" property="TxnDescriptionSku" behavior="readwrite" uniqueId="5ab81792-4035-4ba8-a804-516765c74b92" type="System.String">
+          <orm:column name="TXN_DESCRIPTION_SKU" sql-type="varchar" nullable="true" length="250" scale="0" ado-type="StringVariableLength" />
+        </orm:field>
+        <orm:field name="_txnqty" property="TxnQty" behavior="readwrite" uniqueId="61081b40-4f28-4551-b10f-a74d753e0b4d" type="System.Nullable`1[[System.Decimal, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+          <orm:column name="TXN_QTY" sql-type="numeric" nullable="true" length="18" scale="2" ado-type="Numeric" />
+        </orm:field>
+        <orm:field name="_headerreference" property="HeaderReference" behavior="readwrite" uniqueId="57337ffa-1fe9-4510-9616-af580069e9e4" type="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+          <orm:column name="HEADER_REFERENCE" sql-type="int" nullable="true" length="0" scale="0" ado-type="Int32" />
+        </orm:field>
+        <orm:field name="_txnattemptedwitherror" property="TxnAttemptedWithError" behavior="readwrite" uniqueId="fdeb2d69-4388-4d15-82d8-99aaa67f5558" type="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+          <orm:column name="TXN_ATTEMPTED_WITH_ERROR" sql-type="int" nullable="true" length="0" scale="0" ado-type="Int32" />
+        </orm:field>
+        <orm:field name="_txnispostederp" property="TxnIsPostedErp" behavior="readwrite" uniqueId="43f46893-f6c8-4b0f-81cc-d9bcb0c0d5b6" type="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+          <orm:column name="TXN_IS_POSTED_ERP" sql-type="int" nullable="true" length="0" scale="0" ado-type="Int32" />
+        </orm:field>
+        <orm:field name="_txnpostederp" property="TxnPostedErp" behavior="readwrite" uniqueId="8ed9c82b-fadc-4542-adda-5aaae76972ff" type="System.Nullable`1[[System.DateTime, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+          <orm:column name="TXN_POSTED_ERP" sql-type="datetime" nullable="true" length="0" scale="0" ado-type="DateTime" />
+        </orm:field>
+        <orm:field name="_txnpostedresponse" property="TxnPostedResponse" behavior="readwrite" uniqueId="a14dede3-a465-4fac-aca3-70617c1a9900" type="System.String">
+          <orm:column name="TXN_POSTED_RESPONSE" sql-type="varchar" nullable="true" length="150" scale="0" ado-type="StringVariableLength" />
+        </orm:field>
+        <orm:field name="_txnsignature" property="TxnSignature" behavior="readwrite" uniqueId="718304e6-a4ae-4aa5-8805-91cd36b356c9" type="System.String">
+          <orm:column name="TXN_SIGNATURE" sql-type="varchar(max)" nullable="true" length="0" scale="0" ado-type="StringInfiniteLength" />
+        </orm:field>
+        <orm:field name="_txntasksource" property="TxnTaskSource" behavior="readwrite" uniqueId="eab5475e-a649-479b-bc5e-06bd62adef86" type="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+          <orm:column name="TXN_TASK_SOURCE" sql-type="int" nullable="true" length="0" scale="0" ado-type="Int32" />
+        </orm:field>
+        <orm:field name="_txnimage1" property="TxnImage1" behavior="readwrite" uniqueId="c19c752c-9353-43f8-a9f1-ab0071b91f30" type="System.String">
+          <orm:column name="TXN_IMAGE_1" sql-type="varchar(max)" nullable="true" length="0" scale="0" ado-type="StringInfiniteLength" />
+        </orm:field>
+        <orm:field name="_txnbatch" property="TxnBatch" behavior="readwrite" uniqueId="66cdb418-84aa-4d81-8936-d00326b7b2d0" type="System.String">
+          <orm:column name="TXN_BATCH" sql-type="varchar" nullable="true" length="50" scale="0" ado-type="StringVariableLength" />
+        </orm:field>
+        <orm:field name="_txnserie" property="TxnSerie" behavior="readwrite" uniqueId="93655b44-98aa-4521-bdf2-5cc78e330297" type="System.String">
+          <orm:column name="TXN_SERIE" sql-type="varchar" nullable="true" length="75" scale="0" ado-type="StringVariableLength" />
+        </orm:field>
+      </orm:class>
+    </orm:namespace>
+    <orm:schema schema="">
+      <orm:table name="SWIFT_TXNS">
+        <orm:column name="TXN_ID" sql-type="int" nullable="false" length="0" scale="0" primary-key="true" backend-calculated="true" ado-type="Int32" />
+        <orm:column name="MANIFEST_SOURCE" sql-type="int" nullable="true" length="0" scale="0" ado-type="Int32" />
+        <orm:column name="SAP_REFERENCE" sql-type="varchar" nullable="true" length="50" scale="0" ado-type="StringVariableLength" />
+        <orm:column name="TASK_SOURCE_ID" sql-type="int" nullable="true" length="0" scale="0" ado-type="Int32" />
+        <orm:column name="TXN_TYPE" sql-type="varchar" nullable="true" length="25" scale="0" ado-type="StringVariableLength" />
+        <orm:column name="TXN_DESCRIPTION" sql-type="varchar" nullable="true" length="50" scale="0" ado-type="StringVariableLength" />
+        <orm:column name="TXN_CATEGORY" sql-type="varchar" nullable="true" length="25" scale="0" ado-type="StringVariableLength" />
+        <orm:column name="TXN_CREATED_STAMP" sql-type="datetime" nullable="true" length="0" scale="0" ado-type="DateTime" />
+        <orm:column name="TXN_OPERATOR_ID" sql-type="varchar" nullable="true" length="25" scale="0" ado-type="StringVariableLength" />
+        <orm:column name="TXN_OPERATOR_NAME" sql-type="varchar" nullable="true" length="250" scale="0" ado-type="StringVariableLength" />
+        <orm:column name="TXN_CODE_SKU" sql-type="varchar" nullable="true" length="50" scale="0" ado-type="StringVariableLength" />
+        <orm:column name="TXN_DESCRIPTION_SKU" sql-type="varchar" nullable="true" length="250" scale="0" ado-type="StringVariableLength" />
+        <orm:column name="TXN_QTY" sql-type="numeric" nullable="true" length="18" scale="2" ado-type="Numeric" />
+        <orm:column name="HEADER_REFERENCE" sql-type="int" nullable="true" length="0" scale="0" ado-type="Int32" />
+        <orm:column name="TXN_ATTEMPTED_WITH_ERROR" sql-type="int" nullable="true" length="0" scale="0" ado-type="Int32" />
+        <orm:column name="TXN_IS_POSTED_ERP" sql-type="int" nullable="true" length="0" scale="0" ado-type="Int32" />
+        <orm:column name="TXN_POSTED_ERP" sql-type="datetime" nullable="true" length="0" scale="0" ado-type="DateTime" />
+        <orm:column name="TXN_POSTED_RESPONSE" sql-type="varchar" nullable="true" length="150" scale="0" ado-type="StringVariableLength" />
+        <orm:column name="TXN_SIGNATURE" sql-type="varchar(max)" nullable="true" length="0" scale="0" ado-type="StringInfiniteLength" />
+        <orm:column name="TXN_TASK_SOURCE" sql-type="int" nullable="true" length="0" scale="0" ado-type="Int32" />
+        <orm:column name="TXN_IMAGE_1" sql-type="varchar(max)" nullable="true" length="0" scale="0" ado-type="StringInfiniteLength" />
+        <orm:column name="TXN_BATCH" sql-type="varchar" nullable="true" length="50" scale="0" ado-type="StringVariableLength" />
+        <orm:column name="TXN_SERIE" sql-type="varchar" nullable="true" length="75" scale="0" ado-type="StringVariableLength" />
+      </orm:table>
+    </orm:schema>
+    <orm:relational-naming-settings>
+      <orm:source-strategy>Property</orm:source-strategy>
+      <orm:remove-camel-case>False</orm:remove-camel-case>
+    </orm:relational-naming-settings>
+  </orm:orm>
+  <ModelSettings xmlns="">
+    <AppConfigConnectionPropertyName>SWIFT_EXPRESSConnection</AppConfigConnectionPropertyName>
+    <AppConfigConnectionString>Data Source=192.168.1.112;Initial Catalog=SWIFT_EXPRESS;User ID=UFerco;Password=ferco123</AppConfigConnectionString>
+    <InitialCatalog>SWIFT_EXPRESS</InitialCatalog>
+    <NamingSettings>
+      <ClassRules>
+        <CaseMode>PascalCase</CaseMode>
+        <PluralizationMode>Singularize</PluralizationMode>
+        <RemoveUnderscore>true</RemoveUnderscore>
+        <UnderscoreAsWordDelimiter>true</UnderscoreAsWordDelimiter>
+        <CapitalLetterAsWordDelimiter>false</CapitalLetterAsWordDelimiter>
+      </ClassRules>
+      <FieldRules>
+        <AddPrefix>_</AddPrefix>
+        <CaseMode>CamelCase</CaseMode>
+        <RemoveUnderscore>true</RemoveUnderscore>
+        <UnderscoreAsWordDelimiter>true</UnderscoreAsWordDelimiter>
+        <CapitalLetterAsWordDelimiter>false</CapitalLetterAsWordDelimiter>
+      </FieldRules>
+      <PropertyRules>
+        <CaseMode>PascalCase</CaseMode>
+        <RemoveUnderscore>true</RemoveUnderscore>
+        <UnderscoreAsWordDelimiter>true</UnderscoreAsWordDelimiter>
+        <CapitalLetterAsWordDelimiter>false</CapitalLetterAsWordDelimiter>
+      </PropertyRules>
+      <NavigationPropertyRules>
+        <IsPrefixSuffixEnabled>false</IsPrefixSuffixEnabled>
+      </NavigationPropertyRules>
+    </NamingSettings>
+    <CodeGenerationSettings>
+      <OutputProjectName>MobilityScm.Modelo.Entidades</OutputProjectName>
+      <OutputProjectFolder>Entidades\</OutputProjectFolder>
+      <OutputPath>Entidades\</OutputPath>
+      <MappingDefinitionType>Attributes</MappingDefinitionType>
+    </CodeGenerationSettings>
+    <SchemaUpdateSettings />
+    <BackendConfigurationSettings>
+      <BackendConfiguration>
+        <Backend>MsSql</Backend>
+        <ProviderName>System.Data.SqlClient</ProviderName>
+      </BackendConfiguration>
+    </BackendConfigurationSettings>
+  </ModelSettings>
+  <Types>
+    <DomainClass Id="898df13c-db81-4241-804c-7f1cc3472085" name="SwiftTxn" namespace="MobilityScm.Modelo.Entidades" showPropertiesCompartment="true" identityMechanism="DatabaseServerCalculated" concurrencyMode="Changed" showNavigationCompartment="true" showImplementationCompartment="true" identityMechanismMember="TxnId">
+      <Property Id="6c42a4b8-03cb-46f4-8af4-b32648ecde68" name="TxnId" type="Int32" label="TxnId : Int32" kind="Persistent" identity="true" fieldName="_txnid" />
+      <Property Id="57337ffa-1fe9-4510-9616-af580069e9e4" name="HeaderReference" type="Int32" label="HeaderReference : Int32" nullable="true" kind="Persistent" fieldName="_headerreference" />
+      <Property Id="eead3e5d-c0f2-4432-8ff3-285b32fd9576" name="ManifestSource" type="Int32" label="ManifestSource : Int32" nullable="true" kind="Persistent" fieldName="_manifestsource" />
+      <Property Id="92fe4455-a647-4754-81a8-3d16841fb4fe" name="SapReference" label="SapReference : String" kind="Persistent" fieldName="_sapreference" />
+      <Property Id="f387cb76-0e27-41cd-b2a6-80e959974ec3" name="TaskSourceId" type="Int32" label="TaskSourceId : Int32" nullable="true" kind="Persistent" fieldName="_tasksourceid" />
+      <Property Id="fdeb2d69-4388-4d15-82d8-99aaa67f5558" name="TxnAttemptedWithError" type="Int32" label="TxnAttemptedWithError : Int32" nullable="true" kind="Persistent" fieldName="_txnattemptedwitherror" />
+      <Property Id="66cdb418-84aa-4d81-8936-d00326b7b2d0" name="TxnBatch" label="TxnBatch : String" kind="Persistent" fieldName="_txnbatch" />
+      <Property Id="6128344e-baac-4404-8f06-70b72bef21b9" name="TxnCategory" label="TxnCategory : String" kind="Persistent" fieldName="_txncategory" />
+      <Property Id="47d6a793-7d5c-4070-b086-5cdf95f8b687" name="TxnCodeSku" label="TxnCodeSku : String" kind="Persistent" fieldName="_txncodesku" />
+      <Property Id="6fea0436-c469-48e3-8bf8-58f6cbef2f92" name="TxnCreatedStamp" type="DateTime" label="TxnCreatedStamp : DateTime" nullable="true" kind="Persistent" fieldName="_txncreatedstamp" />
+      <Property Id="795bb2c3-e074-4bc6-be0c-5fa69aeddd1c" name="TxnDescription" label="TxnDescription : String" kind="Persistent" fieldName="_txndescription" />
+      <Property Id="5ab81792-4035-4ba8-a804-516765c74b92" name="TxnDescriptionSku" label="TxnDescriptionSku : String" kind="Persistent" fieldName="_txndescriptionsku" />
+      <Property Id="c19c752c-9353-43f8-a9f1-ab0071b91f30" name="TxnImage1" label="TxnImage1 : String" kind="Persistent" fieldName="_txnimage1" />
+      <Property Id="43f46893-f6c8-4b0f-81cc-d9bcb0c0d5b6" name="TxnIsPostedErp" type="Int32" label="TxnIsPostedErp : Int32" nullable="true" kind="Persistent" fieldName="_txnispostederp" />
+      <Property Id="8edc3dfd-7cce-468c-aea8-75617f45e52a" name="TxnOperatorId" label="TxnOperatorId : String" kind="Persistent" fieldName="_txnoperatorid" />
+      <Property Id="2103d65f-fbaa-42af-8c7f-48bf3849ce49" name="TxnOperatorName" label="TxnOperatorName : String" kind="Persistent" fieldName="_txnoperatorname" />
+      <Property Id="8ed9c82b-fadc-4542-adda-5aaae76972ff" name="TxnPostedErp" type="DateTime" label="TxnPostedErp : DateTime" nullable="true" kind="Persistent" fieldName="_txnpostederp" />
+      <Property Id="a14dede3-a465-4fac-aca3-70617c1a9900" name="TxnPostedResponse" label="TxnPostedResponse : String" kind="Persistent" fieldName="_txnpostedresponse" />
+      <Property Id="61081b40-4f28-4551-b10f-a74d753e0b4d" name="TxnQty" type="Decimal" label="TxnQty : Decimal" nullable="true" kind="Persistent" fieldName="_txnqty" />
+      <Property Id="93655b44-98aa-4521-bdf2-5cc78e330297" name="TxnSerie" label="TxnSerie : String" kind="Persistent" fieldName="_txnserie" />
+      <Property Id="718304e6-a4ae-4aa5-8805-91cd36b356c9" name="TxnSignature" label="TxnSignature : String" kind="Persistent" fieldName="_txnsignature" />
+      <Property Id="eab5475e-a649-479b-bc5e-06bd62adef86" name="TxnTaskSource" type="Int32" label="TxnTaskSource : Int32" nullable="true" kind="Persistent" fieldName="_txntasksource" />
+      <Property Id="87608218-b603-41ed-a799-5d969531ca40" name="TxnType" label="TxnType : String" kind="Persistent" fieldName="_txntype" />
+    </DomainClass>
+  </Types>
+  <domainContext>
+    <domainModelHasDomainContext Id="7facccb9-ece4-400e-b3a8-de5e9310cfd3">
+      <domainContainer name="EntitiesModel" namespace="MobilityScm.Modelo.Entidades" showPropertiesCompartment="true">
+        <entitySetProperty name="SwiftTxns" namespace="MobilityScm.Modelo.Entidades" type="SwiftTxn" label="SwiftTxns : IQueryable&lt;MobilityScm.Modelo.Entidades.SwiftTxn&gt;" />
+      </domainContainer>
+    </domainModelHasDomainContext>
+  </domainContext>
+</DomainModel>
