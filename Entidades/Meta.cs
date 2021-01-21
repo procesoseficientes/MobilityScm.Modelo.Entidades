@@ -25,5 +25,6 @@ namespace MobilityScm.Modelo.Entidades
         public int PERIOD_DAYS { get; set; }
         public string NAME_TEAM { get; set; }
         public string STATUS_DESCRIPTION{get;set;}
+        public List<MetaDetalle> GOAL_DETAIL { get; set; }
     }
 }
