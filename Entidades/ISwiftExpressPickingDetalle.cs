@@ -13,6 +13,7 @@ namespace MobilityScm.Modelo.Entidades
         string TaxCode { get; set; }
 
         string U_FAMILIA { get; set; }
-
+        string AcctCode { get; set; }
+        string CogsAcct { get; set; }
     }
 }
