@@ -32,5 +32,7 @@ namespace MobilityScm.Modelo.Entidades
         public string U_FAMILIA { get; set; }
         public decimal DISCOUNT { get; set; }
         public string DISCOUNT_TYPE { get; set; }
+        public string AcctCode { get; set; }
+        public string CogsAcct { get; set; }
     }
 }
