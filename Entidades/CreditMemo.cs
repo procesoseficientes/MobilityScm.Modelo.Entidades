@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace MobilityScm.Modelo.Entidades.Entidades
+namespace MobilityScm.Modelo.Entidades
 {
+    [Serializable]
     public class CreditMemo
     {
         public int ERP_RECEPTION_DOCUMENT_HEADER_ID { get; set; }

@@ -23,6 +23,6 @@ namespace MobilityScm.Modelo.Entidades
         public string CURRENCY { get; set; }
         public decimal DOC_RATE { get; set; }
         public string SUBSIDIARY { get; set; }
-        public List<SwiftNotaDeCreditoDetalle> Detalle { get; set; }
+        public SwiftNotaDeCreditoDetalle[] Detalle { get; set; }
     }
 }
