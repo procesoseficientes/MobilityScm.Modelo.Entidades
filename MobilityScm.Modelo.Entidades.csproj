@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net40</TargetFramework>
     <PackageId>MobilityScm.Modelo.Entidades</PackageId>
-    <Version>2.1.5</Version>
+    <Version>2.1.7</Version>
     <Description>Modelo de Entidades</Description>
     <Copyright></Copyright>
     <Authors>Procesos Eficientes</Authors>

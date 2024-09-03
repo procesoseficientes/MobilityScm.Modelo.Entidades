@@ -22,6 +22,7 @@ namespace MobilityScm.Modelo.Entidades
         public string CLIENT_NAME { get; set; }
         public int DOC_ENTRY { get; set; }
         public string U_SUCURSAL { get; set; }
+        public string U_Cajas { get; set; }
         public List<SwiftSolicitudDeTrasladoDetalle> SwiftSolicitudDeTrasladoDetalle { get; set; }
     }
 }

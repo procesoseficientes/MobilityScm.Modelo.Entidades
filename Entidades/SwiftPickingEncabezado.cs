@@ -172,5 +172,6 @@ namespace MobilityScm.Modelo.Entidades
 
         public int DOC_NUM { get; set; }
         public string PICKING_STATUS { get; set; }
+        public int U_Cajas {  get; set; }
     }
 }

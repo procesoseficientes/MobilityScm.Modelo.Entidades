@@ -102,6 +102,7 @@ namespace MobilityScm.Modelo.Entidades
         string U_FacNom { get; set; }
         string U_Sucursal { get; set; }
         string U_MotivoAuto { get; set; }
+        int U_Cajas {  get; set; }
 
     }
 }
